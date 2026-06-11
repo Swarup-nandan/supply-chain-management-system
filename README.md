@@ -1,1 +1,1 @@
-# supplu-chain-management-system
+# supply-chain-management-system
