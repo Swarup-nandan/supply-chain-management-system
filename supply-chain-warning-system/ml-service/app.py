@@ -150,7 +150,7 @@ def predict():
         result = model.predict(data)
         return jsonify(result)
     except Exception as e:
-        logger.error(f"Prediction error: {e}")
+        logger.error(f"Prediction error: {e}") 
         return jsonify({'error': str(e)}), 500
 
 
